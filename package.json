@@ -1,0 +1,18 @@
+{
+  "name": "vexora-android",
+  "version": "3.0.0",
+  "private": true,
+  "description": "VEXORA V3.0.0 — pembungkus APK (Capacitor)",
+  "scripts": {
+    "prepare:web": "node scripts/prepare-web.js",
+    "build:android": "node scripts/prepare-web.js && npx cap add android && node scripts/patch-android.js && npx capacitor-assets generate --android --iconBackgroundColor \"#050506\" --splashBackgroundColor \"#050506\" && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.1.2"
+  }
+}

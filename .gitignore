@@ -1,0 +1,6 @@
+node_modules
+.vercel
+android-apk/node_modules
+android-apk/www
+android-apk/android
+*.apk

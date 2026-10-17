@@ -1,0 +1,8 @@
+{
+  "appId": "com.vexora.app",
+  "appName": "VEXORA",
+  "webDir": "www",
+  "backgroundColor": "#050506",
+  "server": { "androidScheme": "https" },
+  "android": { "allowMixedContent": false }
+}
